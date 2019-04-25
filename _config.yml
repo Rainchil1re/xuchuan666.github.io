@@ -6,6 +6,7 @@ url: '' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: 'rainchilre.com'
+url: 'rainchilre.com'
 
 # Navigation links
 nav:

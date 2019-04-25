@@ -2,10 +2,10 @@
 title: 'Rainchilre'
 description: '前端开发工程师，很高兴在这里与你分享生活的点滴'
 keyword: '徐川, 徐川的独立博客, 徐川的博客, 前端, 前端开发, 前端博客, javascript, vuejs, reactjs, dva, nodejs'
-url: '' # your host
+url: 'rainchilre.com' # your host
 
 # if you don't need baseurl, you should leave this value blank.
-baseurl: 'rainchilre.com'
+baseurl: ''
 
 # Navigation links
 nav:

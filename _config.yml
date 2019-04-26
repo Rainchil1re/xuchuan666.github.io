@@ -60,8 +60,7 @@ paginate_path: 'page:num'
 exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
 
 # Markdown
-markdown: kramdown
-highlighter: rouge
+markdown: kramdownhighlighter: rouge
 kramdown:
   input: GFM
 

@@ -5,8 +5,8 @@
     <description>前端开发工程师，很高兴在这里与你分享生活的点滴</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 Apr 2019 15:28:45 +0800</pubDate>
-    <lastBuildDate>Fri, 26 Apr 2019 15:28:45 +0800</lastBuildDate>
+    <pubDate>Fri, 26 Apr 2019 18:18:53 +0800</pubDate>
+    <lastBuildDate>Fri, 26 Apr 2019 18:18:53 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -167,7 +167,7 @@
     
       <item>
         <title>前端异常监控初步方案</title>
-        <description>&lt;h2 id=&quot;前端监控&quot;&gt;前端监控&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;前端监控xc&quot;&gt;前端监控xc&lt;/h2&gt;
 &lt;p&gt;在线上项目中需要统计产品中用户行为和使用情况，从而可以从用户和产品可以从用户和产品的角度去了解用户群体，从而升级和迭代产品，使其更加贴近用户。这些数据可以通过前端监控的方式获得。&lt;/p&gt;
 
 &lt;p&gt;目前我们需要关注的前端监控包括：异常监控和性能监控。&lt;/p&gt;

@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="25dc262e-49e3-4313-8297-bafbe78b8c7e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-04-26-web-cache.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-26-web-cache.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/04/26/web-cache.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/04/26/web-cache.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/rss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/sass/app.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +36,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-04-26-web-cache.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2019-04-26-web-cache.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2019-04-26-web-cache.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="465">
+              <caret line="77" column="42" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/sass/common.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="129" column="23" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/sass/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="129" column="14" lean-forward="true" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/sass/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -60,13 +91,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>H2O</find>
-      <find>Powered by</find>
+      <find />
       <find>String</find>
       <find>base</find>
       <find>协商缓存应用</find>
       <find>强缓存与协商缓存的区别</find>
-      <find>web-cache</find>
       <find>评</find>
+      <find>web-cache</find>
+      <find>banner-theme-default</find>
+      <find>.banner-theme-default</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -82,6 +115,9 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2019-04-25-web-expection.md" />
         <option value="$PROJECT_DIR$/_posts/2019-04-26-web-cache.md" />
+        <option value="$PROJECT_DIR$/dev/sass/app.scss" />
+        <option value="$PROJECT_DIR$/dev/sass/app.css" />
+        <option value="$PROJECT_DIR$/dev/sass/common.scss" />
       </list>
     </option>
   </component>
@@ -144,8 +180,7 @@
             <path>
               <item name="xuchuan666.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="xuchuan666.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,6 +191,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="/usr/local/lib/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -182,6 +218,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -194,7 +240,7 @@
       <updated>1556183855125</updated>
       <workItem from="1556183859547" duration="3663000" />
       <workItem from="1556245458840" duration="252000" />
-      <workItem from="1556245952061" duration="4431000" />
+      <workItem from="1556245952061" duration="6876000" />
     </task>
     <task id="LOCAL-00001" summary="修改README.md">
       <created>1556184782377</created>
@@ -238,26 +284,40 @@
       <option name="project" value="LOCAL" />
       <updated>1556262361732</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2019-04-26-web-cache.md">
+      <created>1556263762726</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556263762726</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2019-04-26-web-cache.md">
+      <created>1556263974559</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556263974559</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8576000" />
+    <option name="totallyTimeSpent" value="11021000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="23" width="1770" height="979" extended-state="0" />
-    <editor active="true" />
+    <frame x="24" y="23" width="1770" height="979" extended-state="1" />
     <layout>
-      <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24985707" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32993197" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32993197" />
+      <window_info id="Gulp" order="2" sideWeight="0.500846" side_tool="true" weight="0.24985707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.24985707" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,7 +326,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,8 +483,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-26-web-cache.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="465">
+          <caret line="77" column="42" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="129" column="14" lean-forward="true" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="129" column="23" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
         </state>
       </provider>
     </entry>

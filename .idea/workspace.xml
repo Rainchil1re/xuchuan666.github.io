@@ -4,7 +4,9 @@
     <list default="true" id="25dc262e-49e3-4313-8297-bafbe78b8c7e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-04-25-web-expection.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-25-web-expection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/rss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2019/04/25/web-expection.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/04/25/web-expection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2019/04/26/web-cache.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/04/26/web-cache.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +32,8 @@
       <file leaf-file-name="2019-04-25-web-expection.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2019-04-25-web-expection.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="209">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -240,7 +242,7 @@
       <updated>1556183855125</updated>
       <workItem from="1556183859547" duration="3663000" />
       <workItem from="1556245458840" duration="252000" />
-      <workItem from="1556245952061" duration="9272000" />
+      <workItem from="1556245952061" duration="10337000" />
     </task>
     <task id="LOCAL-00001" summary="修改README.md">
       <created>1556184782377</created>
@@ -354,11 +356,32 @@
       <option name="project" value="LOCAL" />
       <updated>1556276704162</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="test">
+      <created>1556276754825</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1556276754825</updated>
+    </task>
+    <task id="LOCAL-00018" summary="test">
+      <created>1556276963277</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1556276963277</updated>
+    </task>
+    <task id="LOCAL-00019" summary="test">
+      <created>1556277246201</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1556277246201</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13417000" />
+    <option name="totallyTimeSpent" value="14482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="23" width="1770" height="979" extended-state="0" />
@@ -566,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-25-web-expection.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="209">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>

@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="25dc262e-49e3-4313-8297-bafbe78b8c7e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/rss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-25-web-expection.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-25-web-expection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2019/04/25/web-expection.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/04/25/web-expection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2019/04/26/web-cache.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/04/26/web-cache.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-04-25-web-expection.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2019-04-25-web-expection.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2019-04-25-web-expection.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="70" selection-start-line="70" selection-end-line="70" selection-end-column="40" />
+            <state relative-caret-position="494">
+              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -45,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/sass/common.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
@@ -91,7 +93,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>H2O</find>
-      <find />
+      <find>Powered by</find>
       <find>String</find>
       <find>base</find>
       <find>协商缓存应用</find>
@@ -113,11 +115,11 @@
         <option value="$PROJECT_DIR$/_posts/2019-04-25-test.md" />
         <option value="$PROJECT_DIR$/CNAME" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_posts/2019-04-25-web-expection.md" />
         <option value="$PROJECT_DIR$/_posts/2019-04-26-web-cache.md" />
         <option value="$PROJECT_DIR$/dev/sass/app.scss" />
         <option value="$PROJECT_DIR$/dev/sass/app.css" />
         <option value="$PROJECT_DIR$/dev/sass/common.scss" />
+        <option value="$PROJECT_DIR$/_posts/2019-04-25-web-expection.md" />
       </list>
     </option>
   </component>
@@ -240,7 +242,7 @@
       <updated>1556183855125</updated>
       <workItem from="1556183859547" duration="3663000" />
       <workItem from="1556245458840" duration="252000" />
-      <workItem from="1556245952061" duration="6876000" />
+      <workItem from="1556245952061" duration="8062000" />
     </task>
     <task id="LOCAL-00001" summary="修改README.md">
       <created>1556184782377</created>
@@ -298,14 +300,36 @@
       <option name="project" value="LOCAL" />
       <updated>1556263974559</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="使用netlify部署博客及部署自动化">
+      <created>1556273963761</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556273963761</updated>
+    </task>
+    <task id="LOCAL-00010" summary="使用netlify部署博客及部署自动化">
+      <created>1556274010506</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556274010506</updated>
+    </task>
+    <task id="LOCAL-00011" summary="使用netlify部署博客及部署自动化">
+      <created>1556274605113</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556274605113</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11021000" />
+    <option name="totallyTimeSpent" value="12207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="23" width="1770" height="979" extended-state="1" />
+    <frame x="24" y="23" width="1770" height="979" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -365,7 +389,8 @@
     <MESSAGE value="关闭评论功能" />
     <MESSAGE value="update" />
     <MESSAGE value="2019-04-26-web-cache.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-04-26-web-cache.md" />
+    <MESSAGE value="使用netlify部署博客及部署自动化" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用netlify部署博客及部署自动化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_config.yml">
@@ -474,13 +499,6 @@
     <entry file="file://$PROJECT_DIR$/assets/img/web-exception.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-04-25-web-expection.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="70" selection-start-line="70" selection-end-line="70" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-26-web-cache.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -509,6 +527,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="129" column="23" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-04-25-web-expection.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
         </state>
       </provider>
     </entry>

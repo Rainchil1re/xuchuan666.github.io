@@ -5,8 +5,8 @@
     <description>前端开发工程师，很高兴在这里与你分享生活的点滴</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 Apr 2019 15:01:28 +0800</pubDate>
-    <lastBuildDate>Fri, 26 Apr 2019 15:01:28 +0800</lastBuildDate>
+    <pubDate>Fri, 26 Apr 2019 15:28:45 +0800</pubDate>
+    <lastBuildDate>Fri, 26 Apr 2019 15:28:45 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -66,10 +66,10 @@
 &lt;p&gt;浏览器的缓存状态是由HTTP header决定的，header的参数有四种：Expires、Last-modified、Cache-Control、ETag&lt;/p&gt;
 
 &lt;h3 id=&quot;expires&quot;&gt;Expires&lt;/h3&gt;
-&lt;p&gt;缓存过期时间，用来指定资源到期的时间，是服务器端的具体的时间点，在响应http请求时告诉浏览器在过期时间前浏览器可以直接从浏览器缓存取数据，而无需再次请求。&lt;img src=&quot;media/15562467086515/15562597966552.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;缓存过期时间，用来指定资源到期的时间，是服务器端的具体的时间点，在响应http请求时告诉浏览器在过期时间前浏览器可以直接从浏览器缓存取数据，而无需再次请求。&lt;img src=&quot;/assets/img/expires.png&quot; alt=&quot;expires&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;last-modified&quot;&gt;Last-Modified&lt;/h3&gt;
-&lt;p&gt;服务器端文件的最后修改时间，需要和Cache-Control共同使用，是检查服务器端资源是否更新的一种方式。当浏览器再次进行请求时，会向服务器传送If-Modified-Since报头，询问Last-Modified时间点之后资源是否被修改过。如果没有修改，则返回码为304，使用缓存；如果修改过，则再次去服务器请求资源，返回码和首次请求相同为200，资源为服务器最新资源。&lt;img src=&quot;media/15562467086515/15562598740767.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;服务器端文件的最后修改时间，需要和Cache-Control共同使用，是检查服务器端资源是否更新的一种方式。当浏览器再次进行请求时，会向服务器传送If-Modified-Since报头，询问Last-Modified时间点之后资源是否被修改过。如果没有修改，则返回码为304，使用缓存；如果修改过，则再次去服务器请求资源，返回码和首次请求相同为200，资源为服务器最新资源。&lt;img src=&quot;/assets/img/last-modified.png&quot; alt=&quot;last-modified&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;etag&quot;&gt;Etag&lt;/h3&gt;
 &lt;p&gt;ETag和Last-Modified也是一样的，是对文件进行标识的字段。不同的是，ETag是根据实体内容生成一段hash字符串，标识资源的状态，由服务端产生。在向服务器查询文件是否有更新时，浏览器通过If-None-Match字段把特征字串（hash字符串）发送给服务器，由服务器和文件最新特征字串进行匹配，来判断文件是否有更新。没有更新则返回304，有更新则返回200。ETag和Last-Modified可根据需求使用一个或两个同时使用。两个同时使用时，只要满足基中一个条件，就认为文件没有更新。&lt;/p&gt;
@@ -111,7 +111,7 @@
 &lt;h3 id=&quot;协商缓存应用&quot;&gt;协商缓存应用&lt;/h3&gt;
 &lt;ol&gt;
   &lt;li&gt;浏览器第一次跟服务器请求一个资源，服务器在返回这个资源的同时，在respone的header加上Last-Modified的header，这个header表示这个资源在服务器上的最后修改时间；&lt;/li&gt;
-  &lt;li&gt;浏览器再次向服务器请求这个资源时，在request的header上加上If-Modified-Since的header，这个header的值就是上一次请求时返回的Last-Modified的值；&lt;img src=&quot;media/15562467086515/15562610153373.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;浏览器再次向服务器请求这个资源时，在request的header上加上If-Modified-Since的header，这个header的值就是上一次请求时返回的Last-Modified的值；&lt;img src=&quot;/assets/img/if-modified-since.png&quot; alt=&quot;expires&quot; /&gt;&lt;/li&gt;
   &lt;li&gt;服务器再次收到资源请求时，根据浏览器传过来If-Modified-Since和资源在服务器上的最后修改时间判断资源是否有变化，如果没有变化则返回304 Not Modified，但是不会返回资源内容；如果有变化，就正常返回资源内容。当服务器返回304 Not Modified的响应时，response header中不会再添加Last-Modified的header，因为既然资源没有变化，那么Last-Modified也就不会改变，这是服务器返回304时的response header；&lt;/li&gt;
   &lt;li&gt;浏览器收到304的响应后，就会从缓存中加载资源；&lt;/li&gt;
   &lt;li&gt;如果不符合协商缓存要求，浏览器直接从服务器加载资源时，Last-Modified Header在重新加载的时候会被更新，下次请求时，If-Modified-Since会启用上次返回的Last-Modified值&lt;/li&gt;

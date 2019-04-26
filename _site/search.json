@@ -1,6 +1,12 @@
 [
   
     {
+      "title"    : "前端缓存",
+      "tags"     : "前端 缓存",
+      "url"      : "/2019/04/26/web-cache.html"
+    } ,
+  
+    {
       "title"    : "前端异常监控初步方案",
       "tags"     : "前端",
       "url"      : "/2019/04/25/web-expection.html"

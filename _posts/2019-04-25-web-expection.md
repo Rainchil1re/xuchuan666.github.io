@@ -41,7 +41,7 @@ tags: 前端
 * 合并上报
 * 错误过滤
 * 最大阈值
-* 上报评率
+* 上报频率
 
 ## 数据节流
 一个错误发生时候，上报的数据量还是蛮大的，如果一个异常一直重复发生，连续不断向服务器轰炸，既是数据冗余，也造成流量浪费，由于上报的错误都是字符串，我们可以通过字符串压缩类工具库来实现数据节流比如：[lz-string](https://github.com/pieroxy/lz-string)
@@ -68,7 +68,7 @@ tags: 前端
 * 扩展信息
 
 ## 架构设计
-![avatar](/assets/img/exception.png)
+![avatar](/assets/img/web-exception.png)
 
 1. 捕获数据
      目前主流的监控工具库如：badjs, jstracker, sentry, saiji等。经过初步调研之后，认为[sentry](https://sentry.io/welcome/)能够匹配我们的监控求。
